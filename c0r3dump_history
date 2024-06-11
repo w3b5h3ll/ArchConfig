@@ -1,0 +1,235 @@
+: 1718105775:0;clear
+: 1718105776:0;ls
+: 1718105780:0;cd
+: 1718105781:0;ls
+: 1718105786:0;vim .zshrc
+: 1718105984:0;source .zshrc
+: 1718105988:0;clear
+: 1718105989:0;ls
+: 1718105990:0;clear
+: 1718105992:0;cd Workspace
+: 1718105993:0;ls
+: 1718105995:0;cd ../
+: 1718105996:0;clear
+: 1718105996:0;ls
+: 1718106206:0;cd ArchConfig
+: 1718106207:0;ls
+: 1718106219:0;cat software_list.sh
+: 1718106245:0;vim software_list.sh
+: 1718106275:0;clear
+: 1718106276:0;ls
+: 1718106282:0;vim software_list.sh
+: 1718106309:0;clear
+: 1718106310:0;ls
+: 1718106312:0;cd ../
+: 1718106312:0;ls
+: 1718106555:0;cd Workspace
+: 1718106555:0;ls
+: 1718106558:0;cat zsh_install.sh
+: 1718106559:0;clear
+: 1718106560:0;ls
+: 1718106576:0;mkdir archive
+: 1718106578:0;ls
+: 1718106580:0;mv zsh_install.sh archive
+: 1718106581:0;ls
+: 1718106582:0;cd
+: 1718106583:0;clear
+: 1718106614:0;cat ArchConfig/personal_install.txt
+: 1718106633:0;clear
+: 1718106742:0;python3
+: 1718106747:0;clear
+: 1718106748:0;ls
+: 1718106750:0;clear
+: 1718106755:0;ls
+: 1718106757:0;cd Workspace
+: 1718106758:0;ls
+: 1718106767:0;mkdir tools
+: 1718106768:0;cd tools
+: 1718106769:0;ls
+: 1718106770:0;clear
+: 1718106780:0;sudo pacman -Syyu
+: 1718106794:0;clear
+: 1718106828:0;sudo pacman -S bluez-tools bluez-utils bluez-deprecated-tools \\
+               python-setuptools python-pydbus python-dbus\
+               git gcc python-pip \\
+
+: 1718106875:0;sudo pacman -S bluez-tools bluez-deprecated-tools \\
+               python-pydbus python-dbus\
+               git gcc python-pip \\
+
+: 1718106914:0;sudo pacman -S bluez-tools \\
+               python-pydbus python-dbus \\
+               git gcc python-pip \\
+
+: 1718106922:0;clear
+: 1718106932:0;ls
+: 1718106987:0;mkdir cve-2023-45866
+: 1718106988:0;cd cve-2023-45866
+: 1718106991:0;git clone https://github.com/pybluez/pybluez.git
+: 1718106995:0;clear
+: 1718106996:0;ls
+: 1718106998:0;cd pybluez
+: 1718106998:0;ls
+: 1718107045:0;python
+: 1718107056:0;sudo python3 setup.py install
+: 1718107074:0;clear
+: 1718107089:0;ls
+: 1718107092:0;cd ../
+: 1718107092:0;ls
+: 1718107093:0;clear
+: 1718107125:0;git clone https://github.com/pentestfunctions/BlueDucky.git
+: 1718107128:0;cd BlueDucky
+: 1718107144:0;clear
+: 1718107190:0;hciconfig
+: 1718107192:0;clear
+: 1718107199:0;python3 BlueDucky.py
+: 1718107209:0;python3 BlueDucky.py --help
+: 1718107260:0;sudo hciconfig hci0 up
+: 1718107262:0;python3 BlueDucky.py --help
+: 1718107264:0;python3 BlueDucky.py
+: 1718107273:0;clear
+: 1718107304:0;python3 BlueDucky.py 3c:13:5a:ca:be:7d
+: 1718107410:0;hciconfig
+: 1718107482:0;bluetoothctl devices
+: 1718107505:0;ls
+: 1718107508:0;vim BlueDucky.py
+: 1718107548:0;python3 BlueDucky.py 3c:13:5a:ca:be:7d
+: 1718107552:0;python3 BlueDucky.py
+: 1718107561:0;clear
+: 1718107571:0;python3 BlueDucky.py
+: 1718107627:0;clear
+: 1718107628:0;ls
+: 1718107641:0;cd ../
+: 1718107642:0;ls
+: 1718107652:0;vim notes.txt
+: 1718107701:0;mv notes.txt notes.md
+: 1718107703:0;vim notes.md
+: 1718107712:0;clear
+: 1718107713:0;ls
+: 1718107715:0;cd ../
+: 1718107716:0;ls
+: 1718107718:0;clear
+: 1718108153:0;sudo pacman -S --needed base-devel openssl zlib xz\
+
+: 1718108161:0;clear
+: 1718108165:0;man
+: 1718108188:0;sudo pacman -S man-db
+: 1718108192:0;clear
+: 1718108195:0;man pacman
+: 1718108207:0;clear
+: 1718108223:0;cd ../
+: 1718108224:0;ls
+: 1718108227:0;curl https://pyenv.run | bash\
+
+: 1718108527:0;curl https://pyenv.run | bash
+: 1718108603:0;git clone https://github.com/pyenv/pyenv.git ~/.pyenv
+: 1718108610:0;cd ~/.pyenv
+: 1718108611:0;ls
+: 1718108632:0;src/configure && make -C src 
+: 1718108647:0;vim ~/.zshrc
+: 1718108683:0;echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zshrc
+: 1718108694:0;echo '[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zshrc
+: 1718108705:0;echo 'eval "$(pyenv init -)"' >> ~/.zshrc
+: 1718108706:0;cd
+: 1718108707:0;clear
+: 1718108708:0;ls
+: 1718108791:0;pyenv
+: 1718108795:0;clear
+: 1718108797:0;ls
+: 1718108798:0;clear
+: 1718108836:0;pyenv --help
+: 1718108864:0;pyenv install 2.7
+: 1718108961:0;pyenv versions
+: 1718109208:0;cd
+: 1718109209:0;ls
+: 1718109213:0;cd Workspace/tools
+: 1718109214:0;ls
+: 1718109234:0;mkdir sweyntooth
+: 1718109236:0;cd sweyntooth
+: 1718109243:0;git clone https://github.com/Matheus-Garbelini/sweyntooth_bluetooth_low_energy_attacks.git
+: 1718109247:0;clear
+: 1718109247:0;ls
+: 1718109252:0;pyenv --help
+: 1718109257:0;pyenv versions
+: 1718109297:0;pyenv global 2.7.18
+: 1718109300:0;python
+: 1718109317:0;pyenv version
+: 1718109325:0;pip --version
+: 1718109409:0;python
+: 1718109417:0;cd Workspace/tools/sweyntooth
+: 1718109418:0;ls
+: 1718109420:0;pip --version
+: 1718109423:0;ls
+: 1718109427:0;cd sweyntooth_bluetooth_low_energy_attacks
+: 1718109429:0;clear
+: 1718109430:0;ls
+: 1718109471:0;sudo su
+: 1718109659:0;pyenv versions
+: 1718109701:0;pyenv global system
+: 1718109706:0;pip --version
+: 1718109709:0;clear
+: 1718110485:0;ls
+: 1718110514:0;pyenv versions
+: 1718110521:0;pyenv global 2.7.18
+: 1718110524:0;pip --version
+: 1718110533:0;cd Workspace
+: 1718110534:0;ls
+: 1718110537:0;pip install git+https://github.com/nccgroup/umap2.git#egg=umap2
+: 1718110544:0;ls
+: 1718110546:0;sudo su
+: 1718110597:0;cd tools
+: 1718110597:0;ls
+: 1718110603:0;mkdir umap2
+: 1718110605:0;cd umap2
+: 1718110637:0;touch stick.img
+: 1718110646:0;touch mtp_fs
+: 1718110664:0;ls
+: 1718110671:0;git clone https://github.com/BinyaminSharet/Mtp.git
+: 1718110675:0;ls
+: 1718110677:0;cd Mtp
+: 1718110678:0;ls
+: 1718110681:0;sudo su
+: 1718110728:0;ls
+: 1718110730:0;cd ../
+: 1718110731:0;clear
+: 1718110732:0;ls
+: 1718110755:0;cd ../
+: 1718110755:0;ls
+: 1718110769:0;mkdir proxy_clash
+: 1718110770:0;cd proxy_clash
+: 1718110776:0;vim proxy.sh
+: 1718110782:0;cd ../
+: 1718110783:0;ls
+: 1718110784:0;clear
+: 1718110785:0;ls
+: 1718110872:0;cd
+: 1718110874:0;cd ArchConfig
+: 1718110875:0;ls
+: 1718110877:0;./software_list.sh
+: 1718110888:0;sudo su
+: 1718110892:0;ls
+: 1718110894:0;clear
+: 1718110894:0;ls
+: 1718110900:0;cat software_list.sh
+: 1718110906:0;sudo history
+: 1718110961:0;history
+: 1718110971:0;sudo bash -c 'history'
+: 1718111005:0;ls
+: 1718111010:0;rm root.history root_history 
+: 1718111013:0;ls
+: 1718111018:0;rm c0r3dump.history c0r3dump_history 
+: 1718111020:0;ls
+: 1718111059:0;sudo ls -la /root
+: 1718111081:0;sudo cat /root/.bash_history
+: 1718111100:0;ls
+: 1718111155:0;cd /root
+: 1718111157:0;sudo su
+: 1718111197:0;clear
+: 1718111224:0;cd
+: 1718111226:0;vim .zshrc
+: 1718111300:0;cat .zsh_history
+: 1718111304:0;clear
+: 1718111305:0;ls
+: 1718111314:0;cat .zsh_history
+: 1718111320:0;vim .zshrc
+: 1718111344:0;clear
