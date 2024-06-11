@@ -233,3 +233,12 @@
 : 1718111314:0;cat .zsh_history
 : 1718111320:0;vim .zshrc
 : 1718111344:0;clear
+: 1718115489:0;sudo pacman -S gnome
+: 1718115585:0;clear
+: 1718115590:0;cd ArchConfig
+: 1718115591:0;ls
+: 1718115596:0;./software_list.sh
+: 1718115605:0;cat software_list.sh
+: 1718115612:0;history
+: 1718115613:0;ls
+: 1718115619:0;./software_list.sh
