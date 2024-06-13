@@ -96,3 +96,17 @@ cd
 vim .bash_profile 
 vim .bashrc
 exit
+ubertooth-btle -f -c /tmp/files
+clear
+ubertooth-btle -f -c /tmp/files
+cccccclear
+clear
+ubertooth-btle -f -c /tmp/pipe 
+exit
+pip --version
+clear
+mkfifo /tmp/pipe
+rm /tmp/pipe
+clear
+mkfifo /tmp/pipe
+exit

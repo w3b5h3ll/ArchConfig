@@ -1,0 +1,8 @@
+#!/usr/bin/expect -f
+
+spawn zsh
+
+expect "$ "
+send "history > zsh_history\r"
+send "exit\r"
+expect eof

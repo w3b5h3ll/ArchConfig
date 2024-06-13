@@ -242,3 +242,631 @@
 : 1718115612:0;history
 : 1718115613:0;ls
 : 1718115619:0;./software_list.sh
+: 1718115625:0;git add .
+: 1718115630:0;git commit -m "update"
+: 1718115636:0;git push
+: 1718115646:0;git push --set-upstream origin master
+: 1718115685:0;clear
+: 1718115687:0;cd
+: 1718115692:0;sudo poweroff
+: 1718115800:0;cd
+: 1718115802:0;history
+: 1718115803:0;clear
+: 1718115816:0;sudo systemctl enable gdm
+: 1718115887:0;ls
+: 1718115890:0;whoami
+: 1718115894:0;iamyou
+: 1718115896:0;neofetch
+: 1718115912:0;ls
+: 1718115914:0;clear
+: 1718115923:0;ping baidu.com
+: 1718115926:0;clear
+: 1718115926:0;ls
+: 1718115986:0;whoami
+: 1718115987:0;ll
+: 1718115997:0;sudo s
+: 1718116007:0;clear
+: 1718116022:0;cd ArchConfig
+: 1718116023:0;ls
+: 1718116076:0;clear
+: 1718116139:0;neofetch
+: 1718116142:0;ls
+: 1718116145:0;cd ../
+: 1718116146:0;ls
+: 1718116150:0;cd Workspace
+: 1718116150:0;ls
+: 1718116152:0;df -h
+: 1718116164:0;cd
+: 1718116165:0;ls
+: 1718116172:0;history
+: 1718116174:0;ls
+: 1718116175:0;clear
+: 1718116297:0;cd ArchConfig
+: 1718116298:0;ls
+: 1718116299:0;cat personal_install.txt
+: 1718116319:0;ls
+: 1718116321:0;clear
+: 1718116321:0;cd
+: 1718116322:0;ls
+: 1718116324:0;ls -la
+: 1718116333:0;cd
+: 1718116334:0;clear
+: 1718117598:0;ls
+: 1718117602:0;sudo poweroff
+: 1718156889:0;ls
+: 1718156891:0;ll
+: 1718156892:0;clear
+: 1718156907:0;gattool
+: 1718156913:0;gatttool
+: 1718156921:0;man gatttool
+: 1718156926:0;gatttool --help
+: 1718156998:0;hcitool lescan
+: 1718157000:0;clear
+: 1718157064:0;bettercap
+: 1718157099:0;sudo pacman -S bettercap
+: 1718157112:0;clear
+: 1718157188:0;ll
+: 1718157191:0;ls -la
+: 1718157193:0;clear
+: 1718157194:0;ls
+: 1718157195:0;clear
+: 1718157561:0;history|grep yay
+: 1718157611:0;yay --help
+: 1718157639:0;yay -S ubertooth
+: 1718157804:0;yay -S ubertooth-git
+: 1718157886:0;clear
+: 1718157887:0;ls
+: 1718157888:0;clear
+: 1718157956:0;pip --version
+: 1718157958:0;clear
+: 1718158244:0;yay -S ubertooth-git 
+: 1718158424:0;clear
+: 1718158442:0;pyenv install 3.7
+: 1718158528:0;clear
+: 1718158560:0;pyenv versions
+: 1718158629:0;ls .pyenv/
+: 1718158648:0;clear
+: 1718158653:0;pyenv install 3.7
+: 1718158706:0;clear
+: 1718158748:0;pyenv install 3.7
+: 1718158834:0;vim .zshrc
+: 1718158864:0;source .zshrc
+: 1718158876:0;pyenv --help
+: 1718158885:0;pyenv install 3.7
+: 1718158906:0;pyenv update
+: 1718158962:0;pyenv install 3.7
+: 1718159046:0;cd .pyenv
+: 1718159047:0;ls
+: 1718159051:0;cd cach
+: 1718159053:0;clear
+: 1718159056:0;mkdir cache
+: 1718159059:0;cd cache
+: 1718159060:0;ls
+: 1718159064:0;pyenv install 3.7
+: 1718159128:0;wget https://www.python.org/ftp/python/3.7.17/Python-3.7.17.tar.xz
+: 1718159416:0;ifconfig
+: 1718159447:0;ping 192.168.124.103
+: 1718159460:0;cd
+: 1718159463:0;cd Workspace/tools
+: 1718159463:0;ls
+: 1718159467:0;cd proxy_clash
+: 1718159467:0;ls
+: 1718159488:0;./proxy.sh 192.168.124.103
+: 1718159494:0;chmod +x ./proxy.sh
+: 1718159496:0;./proxy.sh 192.168.124.103
+: 1718159517:0;export https_proxy=http://192.168.124.103:7890 http_proxy=http://192.168.124.103:7890 all_proxy=socks5://192.168.124.103:7890
+: 1718159525:0;wget https://www.python.org/ftp/python/3.7.17/Python-3.7.17.tar.xz
+: 1718159540:0;pyenv install 3.7
+: 1718159595:0;cd
+: 1718159601:0;ArchConfig
+: 1718159601:0;ls
+: 1718159605:0;cat software_list.sh
+: 1718159616:0;pacman -Qqen|grep uber
+: 1718159622:0;yay --help
+: 1718159664:0;yay -Qq
+: 1718159725:0;pyenv uninstall 3.7
+: 1718159732:0;pyenv uninstall 3.7.17
+: 1718159736:0;clear
+: 1718159745:0;sudo pacman -S tk
+: 1718159766:0;pyenv install 3.7
+: 1718159823:0;yay -Qqen
+: 1718159893:0;cd
+: 1718159895:0;clear
+: 1718159898:0;pyenv versions
+: 1718159908:0;pyenv global 3.7
+: 1718159912:0;pip --version
+: 1718159916:0;clear
+: 1718159923:0;history|grep yay
+: 1718159948:0;clear
+: 1718159949:0;cd
+: 1718159950:0;clear
+: 1718159952:0;yay -Qm
+: 1718159965:0;yay -S ubertooth
+: 1718160004:0;pip --version
+: 1718160042:0;ubertooth
+: 1718160045:0;ubertooth-btle
+: 1718160064:0;yay -Qm
+: 1718160072:0;cd ArchConfig
+: 1718160074:0;vim software_list.sh
+: 1718160103:0;clear
+: 1718160193:0;exit
+: 1718160195:0;clear
+: 1718160207:0;ubertooth-btle
+: 1718160223:0;sudo ubertooth-btle
+: 1718160256:0;cd Workspace
+: 1718160257:0;ls
+: 1718160298:0;cd tools
+: 1718160299:0;ls
+: 1718160309:0;mkdir ubertooth
+: 1718160311:0;ls
+: 1718160315:0;cd ubertooth
+: 1718160315:0;ls
+: 1718160324:0;vim notes.md
+: 1718160369:0;clear
+: 1718160369:0;ls
+: 1718160477:0;sudo ubertooth-btle -f -c /tmp/pipe
+: 1718160502:0;sudo wireshark
+: 1718160636:0;rm /tmp/pipe
+: 1718160642:0;sudo rm /tmp/pipe
+: 1718160651:0;mkfifo /tmp/pipe
+: 1718160660:0;clear
+: 1718160716:0;sudo wireshark
+: 1718160752:0;sudo ubertooth-btle -f -c /tmp/pipe
+: 1718160771:0;ubertooth-btle -f -c /tmp/pipe
+: 1718160789:0;sudo ubertooth-btle -f -c /tmp/pipe
+: 1718160843:0;ls -l /tmp/pipe
+: 1718160860:0;chmod 777 /tmp/pipe
+: 1718160867:0;sudo ubertooth-btle -f -c /tmp/pipe
+: 1718160893:0;cd ArchConfig
+: 1718160893:0;ls
+: 1718160900:0;./software_list.sh
+: 1718160906:0;clear
+: 1718160907:0;cd
+: 1718160907:0;clear
+: 1718161019:0;df -h
+: 1718161027:0;clear
+: 1718161144:0;ls /usr/bin/dumpcap
+: 1718161148:0;ls -l /usr/bin/dumpcap
+: 1718161209:0;chmod +x /usr/bin/dumpcap
+: 1718161214:0;sudo chmod +x /usr/bin/dumpcap
+: 1718161220:0;ls -l /usr/bin/dumpcap
+: 1718161233:0;adduser
+: 1718161301:0;sudo usermod -aG wireshark c0r3dump
+: 1718161320:0;ls /tmp/pipe
+: 1718161323:0;rm /tmp/pipe
+: 1718161325:0;clear
+: 1718161334:0;mkfifo /tmp/pipe
+: 1718161378:0;history|grep ubertooth
+: 1718161386:0;ubertooth-btle -f -c /tmp/pipe
+: 1718161396:0;sudo ubertooth-btle -f -c /tmp/pipe
+: 1718161543:0;ls /tmp/pipe
+: 1718161547:0;ls -l /tmp/pipe
+: 1718161563:0;chmod 777 /tmp/pipe
+: 1718161573:0;sudo ubertooth-btle -f -c /tmp/pipe
+: 1718161583:0;rm /tmp/pipe
+: 1718161589:0;ubertooth-btle -f -c /tmp/pipe
+: 1718161605:0;sudo ubertooth-btle -f -c /tmp/pipe
+: 1718161631:0;reboot
+: 1718161680:0;sudo ubertooth-btle -f -c /tmp/pipe
+: 1718161703:0;history|grep uber
+: 1718161729:0;ls /dev/
+: 1718161738:0;sudo ubertooth-btle -f -c /tmp/pipe
+: 1718161749:0;_lsusb
+: 1718161752:0;lsusb
+: 1718161759:0;ubertooth-btle -f -c /tmp/pipe
+: 1718161761:0;sudo su
+: 1718161901:0;cd Workspace
+: 1718161902:0;ls
+: 1718161903:0;cd tools
+: 1718161903:0;ls
+: 1718161906:0;cd u
+: 1718161908:0;cd ubertooth
+: 1718161908:0;ls
+: 1718161911:0;vim notes.md
+: 1718161960:0;clear
+: 1718161969:0;top
+: 1718161972:0;htop
+: 1718161973:0;clear
+: 1718161981:0;sudo pacman -S htop
+: 1718161990:0;clear
+: 1718161991:0;htop
+: 1718162004:0;clear
+: 1718166350:0;yay -S nvm
+: 1718166361:0;clear
+: 1718166413:0;echo 'source /usr/share/nvm/init-nvm.sh' >> .zshrc
+: 1718166440:0;nvm --version
+: 1718166525:0;pip --version
+: 1718166540:0;cd Workspace
+: 1718166540:0;ls
+: 1718166548:0;nvm install 8.0.0
+: 1718166661:0;cd tools
+: 1718166661:0;ls
+: 1718166668:0;mkdir btlejuice
+: 1718166670:0;cd btlejuice
+: 1718166671:0;clear
+: 1718166676:0;npm --version
+: 1718166750:0;sudo pacman -S libudev0-shim
+: 1718166756:0;clear
+: 1718166767:0;pacman -Qqen
+: 1718166773:0;pacman -Qqen|grep blue
+: 1718166792:0;sudo pacman -S bluez-libs
+: 1718166801:0;clear
+: 1718166828:0;cd
+: 1718166833:0;cd Workspace
+: 1718166836:0;cd tools/proxy_clash
+: 1718166837:0;ls
+: 1718166849:0;./proxy.sh 192.168.0.4
+: 1718166866:0;export https_proxy=http://192.168.0.4:7890 http_proxy=http://192.168.0.4:7890 all_proxy=socks5://192.168.0.4:7890\
+
+: 1718166879:0;npm install btlejuice
+: 1718166892:0;ping 192.168.0.4
+: 1718166936:0;ls
+: 1718166943:0;cd node_modules/.bin
+: 1718166957:0;cd
+: 1718166965:0;which node
+: 1718166976:0;ls -l $(which node)
+: 1718167033:0;sudo setcap cap_net_raw+eip $(eval readlink -f $(which node))\
+
+: 1718167036:0;clear
+: 1718167048:0;cd Workspace/tools/btlejuice
+: 1718167049:0;ls
+: 1718167050:0;clear
+: 1718167074:0;hciconfig
+: 1718167076:0;clear
+: 1718167096:0;./node_modules/.bin/btlejuice-proxy
+: 1718167143:0;ls
+: 1718167156:0;npm install bluetooth-hci-socket
+: 1718167182:0;clear
+: 1718167187:0;pyenv versions
+: 1718167194:0;pyenv global 2.7.18
+: 1718167199:0;npm install bluetooth-hci-socket
+: 1718167224:0;ls
+: 1718167243:0;rm -rf ./*
+: 1718167246:0;ls
+: 1718167256:0;npm install btlejuice
+: 1718167303:0;ls
+: 1718167313:0;./node_modules/.bin/btlejuice-proxy
+: 1718168115:0;ls
+: 1718168118:0;cat package-lock.json
+: 1718168120:0;clear
+: 1718168121:0;ls
+: 1718168123:0;clear
+: 1718169037:0;sudo poweroff
+: 1718177992:0;ifconfig
+: 1718177998:0;cd Workspace
+: 1718177999:0;ls
+: 1718178000:0;cd tools
+: 1718178000:0;ls
+: 1718178003:0;cd sweyntooth
+: 1718178004:0;ls
+: 1718178006:0;cd sweyntooth_bluetooth_low_energy_attacks
+: 1718178007:0;ls
+: 1718178016:0;clear
+: 1718178169:0;ls
+: 1718178183:0;pyenv versions
+: 1718178226:0;python 
+: 1718178229:0;clear
+: 1718178275:0;python ./Telink_key_size_overflow.py /dev/ttyACM0 6c:b2:fd:1b:44:77
+: 1718178291:0;sudo python ./Telink_key_size_overflow.py /dev/ttyACM0 6c:b2:fd:1b:44:77
+: 1718178707:0;sudo python ./Telink_zero_ltk_installation.py /dev/ttyACM0 6c:b2:fd:1b:44:77
+: 1718178802:0;sudo python ./extras/knob_tester_ble.py /dev/ttyACM0 6c:b2:fd:1b:44:77
+: 1718178896:0;sudo python ./invalid_channel_map.py /dev/ttyACM0 6c:b2:fd:1b:44:77
+: 1718178955:0;sudo python ./link_layer_length_overflow.py /dev/ttyACM0 6c:b2:fd:1b:44:77
+: 1718179047:0;sudo python ./CC2640R2_public_key_crash.py /dev/ttyACM0 6c:b2:fd:1b:44:77
+: 1718179107:0;sudo python ./CC_connection_req_crash.py /dev/ttyACM0 6c:b2:fd:1b:44:77
+: 1718179210:0;sudo python ./extras/non_compliance_dhcheck_skip.py /dev/ttyACM0 6c:b2:fd:1b:44:77
+: 1718179222:0;ls
+: 1718179233:0;cd extras
+: 1718179249:0;ls
+: 1718179252:0;cd ../
+: 1718179253:0;ls
+: 1718179268:0;ls libs
+: 1718179282:0;cd drivers
+: 1718179282:0;ls
+: 1718179286:0;cd ../
+: 1718179287:0;ls
+: 1718179290:0;cd ../
+: 1718179291:0;ls
+: 1718179292:0;clea
+: 1718179293:0;clear
+: 1718179294:0;ls
+: 1718179295:0;cd sweyntooth_bluetooth_low_energy_attacks
+: 1718179296:0;ls
+: 1718179307:0;sudo python ./extras/non_compliance_dhcheck_skip.py /dev/ttyACM0 6c:b2:fd:1b:44:77
+: 1718179332:0;ls captures
+: 1718179340:0;ls extras
+: 1718179344:0;ls
+: 1718179512:0;sudo pacman -S fd
+: 1718179522:0;fd install_smp_server.sh
+: 1718179529:0;fd install_smp_server.sh ~/
+: 1718179532:0;ls
+: 1718179535:0;fd docker
+: 1718179544:0;clear
+: 1718179550:0;sudo python ./extras/non_compliance_dhcheck_skip.py /dev/ttyACM0 6c:b2:fd:1b:44:77
+: 1718179570:0;fd install_smp_server.sh ~/
+: 1718179672:0;ls
+: 1718179676:0;./install_sweyntooth.sh
+: 1718179684:0;sudo ./install_sweyntooth.sh
+: 1718179687:0;clear
+: 1718179691:0;sudo python ./extras/non_compliance_dhcheck_skip.py /dev/ttyACM0 6c:b2:fd:1b:44:77
+: 1718180077:0;ls
+: 1718180078:0;cd ../
+: 1718180079:0;ls
+: 1718180081:0;cd ../
+: 1718180081:0;ls
+: 1718180084:0;cd cve-2023-45866
+: 1718180084:0;ls
+: 1718180087:0;cat notes.md
+: 1718180093:0;ls
+: 1718180095:0;cd BlueDucky
+: 1718180096:0;ls
+: 1718180097:0;clear
+: 1718180100:0;history BlueDucky.py
+: 1718180109:0;history|grep Blue
+: 1718180121:0;pyenv versions
+: 1718180126:0;pyenv global system
+: 1718180129:0;clear
+: 1718180136:0;python --version
+: 1718180162:0;python ./BlueDucky.py ac:37:43:db:8f:26
+: 1718180205:0;hciconfig
+: 1718180207:0;python ./BlueDucky.py ac:37:43:db:8f:26
+: 1718180216:0;python ./BlueDucky.py
+: 1718180995:0;cd
+: 1718180996:0;clear
+: 1718180997:0;ls
+: 1718180999:0;whoami
+: 1718181001:0;clear
+: 1718202624:0;sudo poweroff
+: 1718202817:0;ls
+: 1718202828:0;cd Workspace
+: 1718202828:0;ls
+: 1718202832:0;clear
+: 1718202845:0;ls
+: 1718202847:0;clear
+: 1718202860:0;ls
+: 1718202863:0;cd tools
+: 1718202863:0;ls
+: 1718202869:0;cd ../
+: 1718202870:0;ls
+: 1718202871:0;clear
+: 1718202895:0;ls
+: 1718202966:0;mkdir open-security-training2
+: 1718202967:0;cd open-security-training2
+: 1718202968:0;ls
+: 1718202969:0;clear
+: 1718202970:0;ls
+: 1718202992:0;mkdir re3011
+: 1718202993:0;ls
+: 1718203002:0;cd re3011
+: 1718203003:0;ls
+: 1718203011:0;clear
+: 1718203117:0;ls
+: 1718203121:0;git clone https://gitlab.com/opensecuritytraining/re3011_cpp_re_binaries.git
+: 1718204471:0;cd
+: 1718204473:0;cd Workspace
+: 1718204474:0;ls
+: 1718204476:0;clear
+: 1718204476:0;ls
+: 1718204479:0;hciconfig
+: 1718204494:0;bluetoothctl
+: 1718204554:0;clear
+: 1718204558:0;hcitool san
+: 1718204561:0;hcitool scan
+: 1718204601:0;btmgmt --help
+: 1718204609:0;clear
+: 1718204635:0;btmgmt --help
+: 1718204656:0;btmgmt info 3c:13:5a:ca:b2:c5
+: 1718204667:0;hcitool info 3c:13:5a:ca:b2:c5
+: 1718204672:0;sudo hcitool info 3c:13:5a:ca:b2:c5
+: 1718204692:0;bluetoothctl
+: 1718204845:0;sudo hcitool info 3c:13:5a:ca:b2:c5
+: 1718204854:0;btmgmt info 3c:13:5a:ca:b2:c5
+: 1718204861:0;bluetoothctl
+: 1718205046:0;btmon
+: 1718205053:0;sudo btmon
+: 1718205068:0;bluetoothctl
+: 1718205204:0;hcitool info 3C:13:5A:CA:BE:7D
+: 1718205477:0;hciconfig -a
+: 1718205493:0;hciconfig
+: 1718205495:0;hciconfig -a
+: 1718206082:0;sudo poweroff
+: 1718243078:0;ls
+: 1718246745:0;history
+: 1718246746:0;ls
+: 1718246760:0;cat ./.zsh_history
+: 1718246765:0;ls
+: 1718246768:0;cd Workspace/tools
+: 1718246769:0;ls
+: 1718246773:0;git clone https://gitlab.com/expliot_framework/expliot.git
+: 1718246777:0;ls
+: 1718246779:0;cd expliot
+: 1718246779:0;ls
+: 1718246789:0;pyenv version
+: 1718246791:0;ls
+: 1718246797:0;python --version
+: 1718246799:0;clear
+: 1718246800:0;ls
+: 1718246812:0;cd expliot
+: 1718246812:0;ls
+: 1718246835:0;cd ../
+: 1718246835:0;ls
+: 1718246837:0;ll
+: 1718246880:0;cd container
+: 1718246882:0;ls
+: 1718246884:0;cd ../
+: 1718246884:0;ls
+: 1718246889:0;cat README.md
+: 1718246891:0;ls
+: 1718246895:0;cat MANIFEST.in
+: 1718246908:0;cd ../.../
+: 1718246911:0;cd ../../
+: 1718246911:0;ls
+: 1718246913:0;clear
+: 1718246924:0;pip install expliot
+: 1718247044:0;pip --version
+: 1718247052:0;pip install expliot
+: 1718247076:0;pyenv --help
+: 1718247081:0;pyenv versions
+: 1718247088:0;pyenv global 3.7.17
+: 1718247093:0;pip --version
+: 1718247096:0;pip install expliot
+: 1718247125:0;clear
+: 1718247140:0;pip install expliot -i https://pypi.tuna.tsinghua.edu.cn/simple
+: 1718247261:0;expliot
+: 1718247282:0;clear
+: 1718247580:0;expliot
+: 1718247675:0;sudo expliot
+: 1718248152:0;bluetoothctl
+: 1718248300:0;hciconfig
+: 1718248312:0;hciconfig -a
+: 1718248867:0;clear
+: 1718254216:0;gatttool
+: 1718255079:0;sudo poweroff
+: 1718258390:0;hciconfig
+: 1718258482:0;hcitool info 6c:b2:fd:1b:44:77
+: 1718258489:0;sudo hcitool info 6c:b2:fd:1b:44:77
+: 1718258517:0;bluetoothctl
+: 1718258526:0;sudo hcitool info 6c:b2:fd:1b:44:77
+: 1718261160:0;bluetoothctl
+: 1718261202:0;sudo hcitool info 6c:b2:fd:1b:44:77
+: 1718262708:0;sudo poweroff
+: 1718295692:0;whoami
+: 1718295694:0;ls
+: 1718295698:0;cd Workspace
+: 1718295699:0;ls
+: 1718295701:0;cd open-security-training2
+: 1718295702:0;ls
+: 1718295709:0;cd re3011
+: 1718295710:0;ls
+: 1718295713:0;cd ../
+: 1718295713:0;ls
+: 1718295719:0;clear
+: 1718295719:0;ls
+: 1718295802:0;mkdir tc1101
+: 1718295803:0;cd tc1101
+: 1718295804:0;ls
+: 1718295805:0;clear
+: 1718295817:0;git clone https://gitlab.com/opensecuritytraining/TC1101_TPM_Essentials_slides_and_subtitles.git
+: 1718295851:0;ls
+: 1718295852:0;cd TC1101_TPM_Essentials_slides_and_subtitles
+: 1718295853:0;ls
+: 1718295854:0;cd si
+: 1718295857:0;cd slides
+: 1718295857:0;ls
+: 1718295858:0;clear
+: 1718295859:0;ls
+: 1718295861:0;cd pdf
+: 1718295861:0;ls
+: 1718295905:0;history
+: 1718295918:0;ls
+: 1718295919:0;cd
+: 1718295919:0;ls
+: 1718295921:0;cd ArchConfig
+: 1718295922:0;ls
+: 1718295929:0;./software_list.sh
+: 1718295935:0;ls
+: 1718295940:0;cat zsh_history
+: 1718295958:0;cat c0r3dump_history
+: 1718295963:0;ls
+: 1718295967:0;cat personal_install.txt
+: 1718295975:0;ls
+: 1718295978:0;vim software_list.sh
+: 1718296043:0;history
+: 1718296048:0;history>zsh_history
+: 1718296049:0;ls
+: 1718296051:0;cat zsh_history
+: 1718296054:0;ls
+: 1718296074:0;vim software_list.sh
+: 1718296093:0;./software_list.sh
+: 1718296100:0;vim software_list.sh
+: 1718296119:0;./software_list.sh
+: 1718296124:0;cat root_history
+: 1718296126:0;clear
+: 1718296126:0;ls
+: 1718296131:0;cat personal_install.txt
+: 1718296135:0;clear
+: 1718296135:0;ls
+: 1718296164:0;sudo pacman -S xpdf
+: 1718296169:0;clear
+: 1718296209:0;ls
+: 1718296211:0;cat software_list.sh
+: 1718296257:0;man history
+: 1718296268:0;history --help
+: 1718296276:0;history -h
+: 1718296279:0;man history
+: 1718296304:0;history
+: 1718296307:0;history -E
+: 1718296310:0;clear
+: 1718296311:0;ls
+: 1718296318:0;vim software_list.sh
+: 1718296346:0;clear
+: 1718296348:0;./software_list.sh
+: 1718296352:0;ls
+: 1718296354:0;cat zsh_history
+: 1718296360:0;vim software_list.sh
+: 1718296424:0;fc -l
+: 1718296431:0;fc -l 1
+: 1718296435:0;clear
+: 1718296437:0;vim software_list.sh
+: 1718296443:0;man fc
+: 1718296446:0;fc --help
+: 1718296463:0;vim software_list.sh
+: 1718296488:0;./software_list.sh
+: 1718296494:0;ls
+: 1718296496:0;cat zsh_history
+: 1718296500:0;vim software_list.sh
+: 1718296514:0;./software_list.sh
+: 1718296517:0;cat zsh_history
+: 1718296521:0;vim software_list.sh
+: 1718296563:0;ls
+: 1718296570:0;cat software_list.sh
+: 1718296575:0;vim software_list.sh
+: 1718296598:0;cat software_list.sh
+: 1718296630:0;ls
+: 1718296646:0;mv software_list.sh software_list.sh.bak
+: 1718296649:0;vim software_list.sh
+: 1718296656:0;ls
+: 1718296662:0;chmod +x ./software_list.sh
+: 1718296663:0;./software_list.sh
+: 1718296697:0;vim software_list.sh
+: 1718296711:0;./software_list.sh
+: 1718296735:0;mv software_list.sh.bak software_list.sh
+: 1718296737:0;vim software_list.sh
+: 1718296758:0;clear
+: 1718296759:0;ls
+: 1718296762:0;rm zsh_history
+: 1718296763:0;ll
+: 1718296765:0;clear
+: 1718296765:0;ls
+: 1718296862:0;cat software_list.sh
+: 1718296882:0;expect
+: 1718296890:0;sudo pacman -S expect
+: 1718296896:0;clear
+: 1718296896:0;ls
+: 1718296909:0;vim zsh_history.exp
+: 1718297000:0;clear
+: 1718297002:0;zsh
+: 1718297004:0;exit
+: 1718297005:0;clear
+: 1718297005:0;ls
+: 1718297008:0;zsh
+: 1718297010:0;history
+: 1718297011:0;exit
+: 1718297012:0;clear
+: 1718297013:0;ls
+: 1718297020:0;chmod +x ./zsh_history.exp
+: 1718297023:0;./zsh_history.exp
+: 1718297024:0;history > zsh_history
+: 1718297024:0;exit
+: 1718297028:0;cat zsh_history
+: 1718297029:0;clear
+: 1718297030:0;ls
+: 1718297038:0;vim software_list.sh
+: 1718297074:0;clear
+: 1718297075:0;ls
+: 1718297077:0;./software_list.sh
+: 1718297079:0;history > zsh_history
+: 1718297079:0;exit
+: 1718297083:0;rm zsh_history
+: 1718297084:0;clear
+: 1718297086:0;./software_list.sh
