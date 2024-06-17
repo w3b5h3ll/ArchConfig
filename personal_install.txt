@@ -11,7 +11,6 @@ bluez-tools
 bluez-utils-compat
 btrfs-progs
 chromium
-code
 devtools
 dolphin
 efibootmgr
@@ -106,6 +105,7 @@ tecla
 tk
 totem
 tracker3-miners
+tree
 ttf-fira-code
 vim
 wget
@@ -123,5 +123,9 @@ zsh-completions
 --------yay--------
 libbtbb 2020.12.R1-2
 libbtbb-debug 2020.12.R1-2
+typora-free-with-plugin 1.9.3-1
+typora-free-with-plugin-debug 1.9.3-1
 ubertooth 2020.12.R1-2
 ubertooth-debug 2020.12.R1-2
+visual-studio-code-bin 1.90.1-1
+visual-studio-code-bin-debug 1.90.1-1

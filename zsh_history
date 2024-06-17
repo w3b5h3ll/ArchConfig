@@ -857,3 +857,387 @@
   857  rm zsh_history
   858  clear
   859  ./software_list.sh
+  860  history > zsh_history
+  861  exit
+  862  ls
+  863  cat zsh_history
+  864  clear
+  865  ls
+  866  git add .
+  867  git commit -m "add more ble tools"
+  868  git push
+  869  clear
+  870  cd
+  871  clear
+  872  ls
+  873  xpdf TC1101.A\ -\ What\ will\ we\ learn.pdf
+  874  whoami
+  875  history
+  876  clear
+  877  df -h
+  878  ls /boot
+  879  clear
+  880  dmesg
+  881  sudo dmesg
+  882  clear
+  883  ls
+  884  df -g
+  885  clear
+  886  uname -ra
+  887  neofetch
+  888  sudo poweroff
+  889  cd Workspace
+  890  ls
+  891  cd tools
+  892  ls
+  893  mkdir buildroot
+  894  cd buildroot
+  895  ls
+  896  clear
+  897  ls
+  898  wget https://www.buildroot.org/downloads/buildroot-2024.05.tar.gz
+  899  ls
+  900  tar -zxvf buildroot-2024.05.tar.gz
+  901  ls
+  902  clear
+  903  ls
+  904  cd buildroot-2024.05
+  905  ls
+  906  pyenv version
+  907  clear
+  908  ls
+  909  make menuconfig
+  910  clear
+  911  cd
+  912  clear
+  913  sgpt
+  914  clear
+  915  cd
+  916  clear
+  917  pip --version
+  918  clear
+  919  pip install shell-gpt
+  920  clear
+  921  pip install shell-gpt -i https://pypi.tuna.tsinghua.edu.cn/simple
+  922  sgpt
+  923  sgpt "hello"
+  924  vim .config/shell_gpt/.sgptrc
+  925  spgt
+  926  sgpt
+  927  pip uninstall shell-gpt
+  928  clear
+  929  pyenv global system
+  930  clear
+  931  pip install shell-gpt -i https://pypi.tuna.tsinghua.edu.cn/simple
+  932  clear
+  933  ls
+  934  pip
+  935  pip install shell-gpt -i https://pypi.tuna.tsinghua.edu.cn/simple
+  936  python --version
+  937  python -m pip install shell-gpt -i https://pypi.tuna.tsinghua.edu.cn/simple
+  938  clear
+  939  ls
+  940  pyenv versions
+  941  history|grep pyenv
+  942  clear
+  943  pyenv install 3.10
+  944  cd Workspace/tools
+  945  ls
+  946  cd proxy_clash
+  947  ls
+  948  ./proxy.sh 192.168.0.5
+  949  export https_proxy=http://192.168.0.5:7890 http_proxy=http://192.168.0.5:7890 all_proxy=socks5://192.168.0.5:7890
+  950  pyenv install 3.10
+  951  pyenv versions
+  952  pyenv global 3.10.14
+  953  clear
+  954  pip install shell-gpt -i https://pypi.tuna.tsinghua.edu.cn/simple
+  955  clear
+  956  sgpt
+  957  pip install httpx
+  958  clear
+  959  sgpt
+  960  pip install httpx[socks]
+  961  pip install socks
+  962  sgpt
+  963  pip install socksio
+  964  clear
+  965  sgpt
+  966  sgpt "如何在android手机上使用hcitool工具"
+  967  sgpt --help
+  968  sgpt --chat ble "可否编写android应用，来获取已经连接的蓝牙设备，协议版本等信息"
+  969  clear
+  970  sgpt --chat ble "有没有工具，可以直接查看已连接的设备ble协议版本"
+  971  hciconfig
+  972  sudo hcitool info ac:37:43:dc:db:8f:26
+  973  sudo hcitool info ac:37:43:db:8f:26
+  974  clear
+  975  sudo poweroff
+  976  ls
+  977  df -h
+  978  fdisk
+  979  fdisk -l
+  980  sudo fdisk -l
+  981  clear
+  982  ls
+  983  free -h
+  984  history|grep code
+  985  cat ArchConfig/software_list.sh
+  986  cat ArchConfig/personal_install.txt
+  987  sgpt "arch linux 如何删除 通过 pacman安装的软件"
+  988  sudo pacman -R code
+  989  clear
+  990  sgpt "arch linux 如何安装vscode,而不是code-oss呢"
+  991  yay -S visual-studio-code-bin
+  992  ls
+  993  clear
+  994  ls
+  995  cd Workspace
+  996  ls
+  997  mkdir foundry
+  998  clear
+  999  curl -L https://foundry.paradigm.xyz | bash
+ 1000  ls
+ 1001  ping baidu.com
+ 1002  ping google.com
+ 1003  clear
+ 1004  ls
+ 1005  cd foundry
+ 1006  ls
+ 1007  clear
+ 1008  curl -L https://foundry.paradigm.xyz | bash\n
+ 1009  clear
+ 1010  ls
+ 1011  curl -L https://foundry.paradigm.xyz | bash\n
+ 1012  ls
+ 1013  vim foundryup_install.sh
+ 1014  ls
+ 1015  bash ./foundryup_install.sh
+ 1016  clear
+ 1017  ls
+ 1018  bash ./foundryup_install.sh
+ 1019  ping 185.199.108.133
+ 1020  vim /etc/hosts
+ 1021  sudo vim /etc/hosts
+ 1022  sudo su
+ 1023  su 
+ 1024  sudo su
+ 1025  bash ./foundryup_install.sh
+ 1026  cat ~/.zshenv
+ 1027  cat ~/.zshrc
+ 1028  ls
+ 1029  cat ~/.zshenv
+ 1030  vim ~/.zshrc
+ 1031  source ~/.zshrc
+ 1032  clear
+ 1033  ls
+ 1034  foundryup
+ 1035  ls
+ 1036  forge
+ 1037  which forge
+ 1038  clear
+ 1039  ls
+ 1040  forge --version
+ 1041  clear
+ 1042  ls
+ 1043  code .
+ 1044  forge init
+ 1045  forge init --force
+ 1046  ls
+ 1047  clear
+ 1048  tree
+ 1049  sudo pacman -S tree
+ 1050  clear
+ 1051  sudo pacman -S tree
+ 1052  tree
+ 1053  cd src
+ 1054  touch SimpleStorage.sol
+ 1055  file SimpleStorage.sol
+ 1056  clear
+ 1057  ls
+ 1058  cd ../
+ 1059  ls
+ 1060  clear
+ 1061  forge build
+ 1062  clear
+ 1063  ls
+ 1064  whoami
+ 1065  cd
+ 1066  cer
+ 1067  clear
+ 1068  cd ArchConfig
+ 1069  ls
+ 1070  ./software_list.sh
+ 1071  history > zsh_history
+ 1072  exit
+ 1073  ls
+ 1074  clear
+ 1075  ls
+ 1076  cat root_history
+ 1077  ls
+ 1078  clear
+ 1079  ls
+ 1080  ll
+ 1081  ls
+ 1082  sudo poweroff
+ 1083  ls
+ 1084  sudo su
+ 1085  clear
+ 1086  whoami
+ 1087  clear
+ 1088  cd Workspace
+ 1089  ls
+ 1090  git clone https://github.com/w3b5h3ll/CS106L.git
+ 1091  cd CS106L
+ 1092  ls
+ 1093  clear
+ 1094  code .
+ 1095  touch notes.txt
+ 1096  mv notes.txt notes.md
+ 1097  clear
+ 1098  sgpt "C++语言中,`std::make_pair方法说明`"
+ 1099  sgpt "C++语言中,std::make_pair方法说明"
+ 1100  clear
+ 1101  ls
+ 1102  touch quadratic.cpp
+ 1103  touch Makefile
+ 1104  clear
+ 1105  ls
+ 1106  make main
+ 1107  ls
+ 1108  clear
+ 1109  make all
+ 1110  ls
+ 1111  ./main
+ 1112  make all
+ 1113  clear
+ 1114  ./main
+ 1115  clear
+ 1116  make all
+ 1117  ./main
+ 1118  make clean
+ 1119  clear
+ 1120  make all
+ 1121  ./main
+ 1122  make clean
+ 1123  make all
+ 1124  ./main
+ 1125  ls
+ 1126  clear
+ 1127  make all
+ 1128  ./main
+ 1129  make all
+ 1130  ./main
+ 1131  make clean
+ 1132  make all
+ 1133  ./main
+ 1134  make all
+ 1135  ./main
+ 1136  make all
+ 1137  ./main
+ 1138  make all
+ 1139  ./main
+ 1140  clear
+ 1141  ls
+ 1142  clear
+ 1143  ls
+ 1144  mkdir code
+ 1145  ls
+ 1146  mv main Makefile quadratic.cpp code
+ 1147  ls
+ 1148  clear
+ 1149  cd code
+ 1150  ls
+ 1151  clear
+ 1152  touch narrow_convert.cpp
+ 1153  clear
+ 1154  clang++ ./narrow_convert.cpp -o narrow_convert
+ 1155  ./narrow_convert
+ 1156  clang++ ./narrow_convert.cpp -o narrow_convert
+ 1157  clear
+ 1158  touch l-value_test.cpp
+ 1159  sgpt "std::pow函数"
+ 1160  clear
+ 1161  clang++ -o ./l-value_test l-value_test.cpp
+ 1162  yay -S typora-free-cn
+ 1163  ping baidu.com
+ 1164  yay -S typora-free
+ 1165  clear
+ 1166  touch stringstram.cpp
+ 1167  clang++ -o ./stringstram stringstram.cpp
+ 1168  sgpt ""
+ 1169  sgpt "```代码报错^[[200~stringstram.cpp:8:23: error: implicit instantiation of undefined template 'std::basic_stringstream<char>'```"
+ 1170  /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../include/c++/14.1.1/iosfwd:110:11: note: template is declared here
+ 1171  clear
+ 1172  sgpt "sgpt 程序如何输入代码"
+ 1173  clang++ -o ./stringstram stringstram.cpp
+ 1174  clear
+ 1175  ./stringstram
+ 1176  touch output_buffer.cpp
+ 1177  clang++ -o output_buffer output_buffer.cpp
+ 1178  ./output_buffer
+ 1179  clang++ -o output_buffer output_buffer.cpp
+ 1180  ./output_buffer
+ 1181  clang++ -o output_buffer output_buffer.cpp
+ 1182  ./output_buffer
+ 1183  clear
+ 1184  touch cin_buffer.cpp
+ 1185  clang++ -o cin_buffer cin_buffer.cpp
+ 1186  ./cin_buffer
+ 1187  clang++ -o cin_buffer cin_buffer.cpp
+ 1188  ./cin_buffer
+ 1189  clang++ -o cin_buffer cin_buffer.cpp
+ 1190  ./cin_buffer
+ 1191  clang++ -o cin_buffer cin_buffer.cpp
+ 1192  ./cin_buffer
+ 1193  clang++ -o cin_buffer cin_buffer.cpp
+ 1194  ./cin_buffer
+ 1195  clang++ -o cin_buffer cin_buffer.cpp
+ 1196  ./cin_buffer
+ 1197  clang++ -o cin_buffer cin_buffer.cpp
+ 1198  ./cin_buffer
+ 1199  clang++ -o cin_buffer cin_buffer.cpp
+ 1200  ./cin_buffer
+ 1201  cd
+ 1202  cd ArchConfig
+ 1203  ls
+ 1204  ./software_list.sh
+ 1205  history > zsh_history
+ 1206  exit
+ 1207  clear
+ 1208  ls
+ 1209  ll
+ 1210  clear
+ 1211  ls
+ 1212  touch lecture4-code.cpp
+ 1213  clang++ -o lecture4-code lecture4-code.cpp
+ 1214  ./lecture4-code
+ 1215  ls
+ 1216  cat append.txt
+ 1217  clear
+ 1218  ./lecture4-code
+ 1219  clang++ -o lecture4-code lecture4-code.cpp
+ 1220  ./lecture4-code
+ 1221  cd ArchConfig
+ 1222  ls
+ 1223  sudo poweroff
+ 1224  cd Workspace
+ 1225  ls
+ 1226  clear
+ 1227  sudo poweroff
+ 1228  clear
+ 1229  ls
+ 1230  cd Workspace
+ 1231  ls
+ 1232  cd CS106L
+ 1233  ls
+ 1234  code .
+ 1235  cd
+ 1236  cd ArchConfig
+ 1237  ls
+ 1238  git push
+ 1239  git history
+ 1240  git log
+ 1241  clear
+ 1242  ls
+ 1243  ./software_list.sh

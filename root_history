@@ -110,3 +110,6 @@ rm /tmp/pipe
 clear
 mkfifo /tmp/pipe
 exit
+vim /etc/hosts 
+clear
+exit
